@@ -5,18 +5,15 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">
-    <img src="images/readme/half%20circle.png" alt="Logo" width="120" height="120">
-  </a>
+
 
   <h1 align="center">The Wedding</h1>
 
   <p align="center">
-    <strong>Rehan & Maulidan</strong>
+    <strong>Rega & Ridho</strong>
     <br />
     <a href="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/">Explore the Invitation ! »</a>
     <br />
@@ -28,6 +25,7 @@
 </div>
 
 ## Features
+
 - Countdown to the date and count how many days have been
 - Save google calendar
 - Couple profile
@@ -39,9 +37,8 @@
 - Music from youtube API
 
 <!-- The wedding -->
+
 ## Maulidan Nashuha <img src="images/readme/man.png" width="30px">
-
-
 
 Reach me around the web :
 
@@ -64,13 +61,9 @@ Reach me around the web :
 <img src="https://img.shields.io/badge/Spotify-%231ED760.svg?&style=flat-square&logo=spotify&logoColor=white" alt="Spotify">
 </a>-->
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 ## Rayhan Yulanda <img src="images/readme/woman.png" width="30px">
-
-
 
 Reach me around the web :
 
@@ -90,11 +83,13 @@ Reach me around the web :
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Our big thanks to :
+
 - [Flaticon](https://flaticon.com) - for the assets
 - [Freepik](https://freepik.com) - for the images
 - [Base Template](https://technext.github.io/wedding/)
 
 ### Show some :heart: with star the repo to support the project
+
 [![GitHub stars](https://img.shields.io/github/stars/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Star)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
 [![GitHub forks](https://img.shields.io/github/forks/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Fork)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
 [![GitHub watchers](https://img.shields.io/github/watchers/ngodingsolusi/the-wedding-of-rehan-maulidan.svg?style=social&label=Watch)](https://github.com/ngodingsolusi/the-wedding-of-rehan-maulidan)
