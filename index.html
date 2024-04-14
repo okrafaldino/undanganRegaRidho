@@ -425,6 +425,10 @@
 	// 	day: d.getDate(),
 	// 	enableUtc: false
 	// });
+	window.onbeforeunload = function() {
+    window.scrollTo(0, 0);
+};
+
 	if ('scrollRestoration' in history) {
     // Mencegah browser untuk mempertahankan posisi scroll
     history.scrollRestoration = 'manual';
