@@ -425,6 +425,12 @@
 	// 	day: d.getDate(),
 	// 	enableUtc: false
 	// });
+	window.onload = function() {
+    var element = document.getElementById('fh5co-header');
+    if (element) {
+      element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    }
+ };
 
 	$('#open-invitation').click(function (){
 		$('#overlay').addClass('hide-overlay');
