@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>The Wedding of Rega & Ridho</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1.0, user-scalable=no">
 	<meta name="description" content="The Wedding of Rega and Ridho" />
 	<meta name="keywords" content="wedding, wedding invitation, invitation, the wedding" />
 	<meta name="author" content="Rega & Ridho" />
@@ -425,9 +425,14 @@
 	// 	day: d.getDate(),
 	// 	enableUtc: false
 	// });
-	window.onload = function() {
+	if ('scrollRestoration' in history) {
+    // Mencegah browser untuk mempertahankan posisi scroll
+    history.scrollRestoration = 'manual';
+};
+
+window.onload = function() {
     window.scrollTo(0, 0);
-}
+};
 
 	$('#open-invitation').click(function (){
 		$('#overlay').addClass('hide-overlay');
