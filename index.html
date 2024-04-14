@@ -425,18 +425,18 @@
 	// 	day: d.getDate(),
 	// 	enableUtc: false
 	// });
-// 	window.onbeforeunload = function() {
-//     window.scrollTo(0, 0);
-// };
+	window.onbeforeunload = function() {
+    window.scrollTo(0, 0);
+};
 
-// 	if ('scrollRestoration' in history) {
-//     // Mencegah browser untuk mempertahankan posisi scroll
-//     history.scrollRestoration = 'manual';
-// };
+	if ('scrollRestoration' in history) {
+    // Mencegah browser untuk mempertahankan posisi scroll
+    history.scrollRestoration = 'manual';
+};
 
-// window.onload = function() {
-//     window.scrollTo(0, 0);
-// };
+window.onload = function() {
+    window.scrollTo(0, 0);
+};
 
 	$('#open-invitation').click(function (){
 		$('#overlay').addClass('hide-overlay');
@@ -463,9 +463,9 @@
 		}
 	});
 
-	// function scrollToElement(el) {
-	// 	$("html, body").animate({ scrollTop: $(`#${el}`).offset().top }, 1000);
-	// }
+	function scrollToElement(el) {
+		$("html, body").animate({ scrollTop: $(`#${el}`).offset().top }, 1000);
+	}
 </script>
 
 <script>
